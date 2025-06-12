@@ -2,68 +2,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-color: #000;
+            color: #FFD700;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #FFD700;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+        .card-img {
+            width: 90%;
+            max-width: 400px;
+            height: auto;
+            margin: 30px 0;
+        }
+        .section {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+    </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ronaldo Unique - Sorare Collectible</title>
+  <meta name="description" content="The first-ever Cristiano Ronaldo Sorare Unique card. One-of-one. Iconic. Historic." />
+  <title>Ronaldo Unique | 1-of-1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: center;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+      background-color: #000000;
+      color: #f0f0f0;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
     }
     h1 {
-      font-size: 2.2em;
-      margin-bottom: 0.2em;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: gold;
+      margin-bottom: 0.5rem;
+      text-align: center;
     }
-    p {
-      font-size: 1.2em;
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+      font-weight: 400;
+      color: #ccc;
+      text-align: center;
     }
-    .links {
-      margin-top: 30px;
-      text-align: left;
+    .card-img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 16px;
+      box-shadow: 0 0 24px rgba(255, 215, 0, 0.4);
+      margin: 2rem 0;
     }
-    .links h2 {
-      font-size: 1.5em;
-      border-bottom: 1px solid #fff;
-      padding-bottom: 0.3em;
+    .section {
+      max-width: 700px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      background: #111;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
     }
-    .links a {
-      display: block;
-      color: #0af;
-      margin: 10px 0;
+    .section h3 {
+      color: gold;
+      margin-bottom: 0.5rem;
+    }
+    .section a {
+      color: #1da1f2;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+    .form input,
+    .form textarea {
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .form button {
+      background: gold;
+      color: #000;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.2s ease-in-out;
+    }
+    .form button:hover {
+      background: #e6c200;
+    }
+    .tweet-container {
+      width: 100%;
+      max-width: 560px;
+      margin: 2rem 0;
+    }
+    .sorare-button {
+      background: gold;
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 1rem;
       text-decoration: none;
-    }
-    .links a:hover {
-      text-decoration: underline;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>The Unique Cristiano Ronaldo 2019–20 Sorare Card</h1>
-    <img src="ronaldo_card.png" alt="Cristiano Ronaldo Unique Sorare Card" />
-    <p>One-of-a-kind NFT. Officially licensed. The beginning of a digital legacy.</p>
+<img src="nft_card.png" alt="Cristiano Ronaldo Unique NFT" class="card-img"/>
+  <h1>Ronaldo Unique</h1>
+  <h2>2019–20 Season • 1 of 1 • The Original</h2>
 
-    <div class="links">
-      <h2>Media Coverage & Press</h2>
-      <a href="https://www.bonhams.com/press_release/33076/" target="_blank">Bonhams Press Release: Ronaldo Scores New World Record</a>
-      <a href="https://www.bonhams.com/press_release/33216/" target="_blank">Bonhams Magazine: Brave New Digital World</a>
-      <a href="https://www.ledgerinsights.com/sorare-auction-record-nft-football-soccer/" target="_blank">Ledger Insights Article</a>
-      <a href="https://sorare.com/en-gb/football/my-cards/cards/unique?card=cristiano-ronaldo-dos-santos-aveiro-2019-unique-1" target="_blank">Buy Now on Sorare</a>
-    </div>
+  <img src="ronaldo-card.png" alt="Cristiano Ronaldo Unique Sorare Card" class="card-img" />
+
+  <a href="https://sorare.com/en-gb/football/my-cards/cards/unique?card=cristiano-ronaldo-dos-santos-aveiro-2019-unique-1" target="_blank" class="sorare-button">View on Sorare</a>
+
+  <div class="tweet-container">
+    <blockquote class="twitter-tweet" data-media-max-width="560">
+      <p lang="en" dir="ltr">
+        5-time Ballon d'Or winner Cristiano Ronaldo is listed in our next Juventus bundle sale<br><br>
+        He's definitely the most important player in Sorare and in football these past 10 years.<br><br>
+        3 days to go ⏰<br>
+        <a href="https://t.co/ylbJmBufpZ">https://t.co/ylbJmBufpZ</a>
+      </p>
+      &mdash; Sorare (@Sorare) <a href="https://twitter.com/Sorare/status/1272480852195315712">June 15, 2020</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
+
+  
+  <div class="section" style="background-color:#111;padding:1rem;border-radius:8px;margin-top:2rem;">
+    <h3 style="color:gold;">🏆 The First-Ever Ronaldo Sorare NFT</h3>
+    <p style="color:#eee;">
+      Widely considered Ronaldo’s Sorare <strong>rookie card</strong>, this Unique 1-of-1 was minted in Sorare’s genesis season (2019–20), 
+      before the platform exploded in global popularity. It is the first Ronaldo NFT ever released on Sorare, representing a true digital collectible landmark.
+    </p>
+  </div>
+<div class="section">
+    <h3>Blockchain Provenance</h3>
+    <p>
+      Minted June 2020. Never re-auctioned. Purchased in 2022 by current owner for 77 ETH.
+      This card marked Sorare’s first Ronaldo Unique during the 2019–20 season drop — overlooked when the 2020–21 version made headlines.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Historical Provenance</h3>
+    <ul>
+      <li><a href="https://twitter.com/Sorare/status/1272480852195315712" target="_blank">🔗 Sorare tweet announcing this auction (June 15, 2020)</a></li>
+      <li><a href="https://x.com/Sorare/status/1371076627900338178?s=20" target="_blank">🔗 2020–21 Ronaldo Unique broke records (March 2021)</a></li>
+      <li><a href="https://www.bonhams.com/story/33739/why-the-world-s-most-coveted-football-collectibles-are-going-digital/" target="_blank">🔗 Bonhams: The world’s most coveted football collectibles are going digital</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>Make an Offer</h3>
+    <form class="form" action="https://formspree.io/f/mnqevyzq" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="4" placeholder="Your message or offer" required></textarea>
+      <button type="submit">Send Enquiry</button>
+    </form>
+  </div>
+
+<div class="section">
+    <h2>Featured on Bonhams</h2>
+    <p>This unique Ronaldo card was part of a highly publicized Bonhams auction. See the press release:</p>
+    <a class="button" href="https://www.bonhams.com/press_release/33076/" target="_blank">Bonhams Press Release</a>
+</div>
+
+<div class="section">
+    <h2>Buy the NFT</h2>
+    <p>Own the one-of-a-kind Cristiano Ronaldo 2019–20 Unique Sorare NFT.</p>
+    <a class="button" href="https://sorare.com/en-gb/football/my-cards/cards/unique?card=cristiano-ronaldo-dos-santos-aveiro-2019-unique-1" target="_blank">View on Sorare</a>
+</div>
+
 </body>
 </html>
